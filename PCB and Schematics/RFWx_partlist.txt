@@ -1,0 +1,54 @@
+Partlist
+
+Exported from RFWx_MM.brd at 15/03/2020 20:01
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part      Value          Package    Library        Position (mm)         Orientation
+
+C1        20pF           C1206      rcl            (45.5 6.5)            MR90
+C2        36pF           C1206      rcl            (39 6.5)              MR90
+C3        36pF           C1206      rcl            (32.5 6.5)            MR90
+C4        100nF          C2.5-2     capacitor-wima (80.645 51.435)       R90
+C5        4.7uF          E2,5-6     rcl            (78.105 61.595)       R270
+C6        1uF            C2.5-2     capacitor-wima (66.04 34.29)         R0
+C7        20pF           C1206      rcl            (26 6.5)              MR90
+DRA818V                  DRA8XXZ    DRA818V        (62.865 19.05)        MR0
+EXT_RADIO                MA04-1Y    con-lstb       (84.455 44.45)        R270
+I2C                      MA04-1Y    con-lstb       (12.065 52.705)       R270
+L1        56nH           L0805      rcl            (42.2 9.5)            MR180
+L2        68nH           L0805      rcl            (35.7 9.5)            MR180
+L3        56nH           L0805      rcl            (29.3 9.5)            MR180
+NANO      NANO           NANO       Arduino-clone  (29.845 47.625)       R0
+POWER_H/L                MA02-1Y    con-lstb       (48.26 32.385)        R0
+PTT_DRA                  MA02-1Y    con-lstb       (84.455 35.56)        R90
+PWR_IN                   MA02-1Y    con-lstb       (10.705 13.435)       R90
+Q1        BC547          TO92       transistor-npn (73.66 38.735)        R90
+R1        1.8k           0414V      rcl            (35.56 31.115)        R270
+R2        3.3k           0414V      rcl            (40.005 31.75)        R90
+R3        8k2            0414V      rcl            (69.215 52.705)       R0
+R4        3k9            0414V      rcl            (69.215 57.785)       R0
+R5        2k2            0414V      rcl            (70.485 62.865)       R0
+R6        1k             0414V      rcl            (70.485 67.945)       R0
+R7        1k             0414V      rcl            (66.675 45.085)       R270
+R8        1k             0414V      rcl            (86.36 24.13)         R270
+R9                       RTRIM3339P rcl            (84.425 68.125)       R180
+R11       30k            0414V      rcl            (13.335 30.48)        R0
+R12       7.5k           0414V      rcl            (13.335 36.83)        R180
+R13       30k            0414V      rcl            (16.51 21.59)         R90
+R14       7.5k           0414V      rcl            (22.86 32.385)        R0
+R28       270            0414V      rcl            (75.565 50.165)       R90
+R29       270            0414V      rcl            (66.675 78.375)       R270
+R30       100k           0414V      rcl            (41.275 69.215)       R270
+R31       100k           0414V      rcl            (41.275 60.325)       R90
+RFU                      MA05-1Y    con-lstb       (12.065 64.135)       R270
+RX                       LED5MM     led            (57.15 82.645)        R90
+SENSE                    MA03-1Y    con-lstb       (10.795 21.59)        R270
+SERIAL                   MA03-1Y    con-lstb       (41.275 46.99)        R270
+SPI                      MA05-1Y    con-lstb       (28.575 84.145)       R180
+TX                       LED5MM     led            (49.53 82.645)        R90
+U$1       NANO           NANO       Arduino-clone  (56.515 47.625)       R0
+U1        LD1086VXX-V    TO220-V    v-reg          (28.575 22.86)        R270
+X1        ANT            BU-SMA-V   lasser         (19.925 9.555)        R180
