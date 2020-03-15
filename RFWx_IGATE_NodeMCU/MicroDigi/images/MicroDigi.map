@@ -1,0 +1,1017 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                              hardware/AFSK.o (__udivmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                              main.o (__do_copy_data)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                              hardware/AFSK.o (__muluhisi3)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o) (__umulhisi3)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+                              protocol/Digipeater.o (rand)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+                              protocol/Digipeater.o (atoi)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(memcmp.o)
+                              protocol/Digipeater.o (memcmp)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(mul10.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o) (__mulhi_const_10)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+                              protocol/AX25.o (fgetc)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+                              protocol/AX25.o (fputc)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+                              main.o (__iob)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+                              protocol/Digipeater.o (printf)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                              protocol/Digipeater.o (printf_P)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+                              protocol/Digipeater.o (putchar)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o) (vfprintf)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o) (__ultoa_invert)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o) (__mulohisi3)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o) (__epilogue_restores__)
+
+Allocazione dei simboli comuni
+Simbolo comune      dimensione        file
+
+modem               0xca              main.o
+_clock              0x4               main.o
+rpt_hbits           0x1               main.o
+dst                 0x7               main.o
+packetBuffer        0x14a             protocol/Digipeater.o
+rpt_hbits_out       0x1               main.o
+serial              0xe               main.o
+ax25ctx             0x2               protocol/Digipeater.o
+AFSK_modem          0x2               hardware/AFSK.o
+channel             0x2               protocol/Digipeater.o
+rpt_list            0x38              main.o
+dupl_list           0xe0              protocol/Digipeater.o
+frame_len_out       0x2               protocol/Digipeater.o
+src                 0x7               main.o
+packetBufferOut     0x14a             protocol/Digipeater.o
+AX25                0x156             main.o
+frame_len           0x2               protocol/Digipeater.o
+rpt_list_out        0x38              main.o
+__iob               0x6               /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+
+Configurazione della memoria
+
+Nome             Origine            Lunghezza          Attributi
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script del linker e mappa della memoria
+
+Indirizzo della sezione .data impostato a 0x800100
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+LOAD main.o
+LOAD hardware/Serial.o
+LOAD hardware/AFSK.o
+LOAD util/CRC-CCIT.o
+LOAD protocol/AX25.o
+LOAD protocol/Digipeater.o
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x23d8
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000000000000068                . = ALIGN (0x2)
+                0x0000000000000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000068        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000068                __trampolines_end = .
+ *(.progmem*)
+ .progmem.data  0x0000000000000068       0x80 hardware/AFSK.o
+ .progmem.data  0x00000000000000e8      0x200 util/CRC-CCIT.o
+                0x00000000000000e8                crc_ccit_table
+ .progmem.data  0x00000000000002e8       0x93 protocol/Digipeater.o
+                0x000000000000037c                . = ALIGN (0x2)
+ *fill*         0x000000000000037b        0x1 
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000037c                __ctors_start = .
+ *(.ctors)
+                0x000000000000037c                __ctors_end = .
+                0x000000000000037c                __dtors_start = .
+ *(.dtors)
+                0x000000000000037c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000037c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x000000000000037c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000037c        0xc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000388       0x16 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000388                __do_copy_data
+ .init4         0x000000000000039e       0x10 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000039e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000003ae        0x8 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000003b6        0x4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000003b6                __vector_22
+                0x00000000000003b6                __vector_1
+                0x00000000000003b6                __vector_24
+                0x00000000000003b6                __vector_12
+                0x00000000000003b6                __bad_interrupt
+                0x00000000000003b6                __vector_6
+                0x00000000000003b6                __vector_3
+                0x00000000000003b6                __vector_23
+                0x00000000000003b6                __vector_25
+                0x00000000000003b6                __vector_11
+                0x00000000000003b6                __vector_13
+                0x00000000000003b6                __vector_17
+                0x00000000000003b6                __vector_19
+                0x00000000000003b6                __vector_7
+                0x00000000000003b6                __vector_5
+                0x00000000000003b6                __vector_4
+                0x00000000000003b6                __vector_9
+                0x00000000000003b6                __vector_2
+                0x00000000000003b6                __vector_15
+                0x00000000000003b6                __vector_8
+                0x00000000000003b6                __vector_14
+                0x00000000000003b6                __vector_10
+                0x00000000000003b6                __vector_16
+                0x00000000000003b6                __vector_18
+                0x00000000000003b6                __vector_20
+ .text          0x00000000000003ba       0x48 main.o
+                0x00000000000003be                init
+ .text          0x0000000000000402       0xc4 hardware/Serial.o
+                0x0000000000000402                uart0_putchar
+                0x0000000000000410                uart0_getchar
+                0x000000000000041e                serial_init
+                0x00000000000004a0                serial_available
+                0x00000000000004b4                uart0_getchar_nowait
+ .text          0x00000000000004c6      0x9d4 hardware/AFSK.o
+                0x00000000000004c6                afsk_putchar
+                0x00000000000005ee                afsk_getchar
+                0x000000000000064e                AFSK_hw_refDetect
+                0x0000000000000654                AFSK_hw_init
+                0x00000000000006a8                AFSK_init
+                0x00000000000007c0                AFSK_transmit
+                0x00000000000007f8                AFSK_dac_isr
+                0x0000000000000a2e                AFSK_adc_isr
+                0x0000000000000df0                __vector_21
+ .text          0x0000000000000e9a        0x0 util/CRC-CCIT.o
+ .text          0x0000000000000e9a      0x2a2 protocol/AX25.o
+                0x0000000000000f22                ax25_init
+                0x0000000000000f52                ax25_poll
+                0x000000000000109e                ax25_sendRaw
+ .text          0x000000000000113c      0xa30 protocol/Digipeater.o
+                0x000000000000113c                is_duplicate
+                0x00000000000011da                digipeater_init
+                0x00000000000011fc                digipeater_csma
+                0x00000000000012f8                digipeater_processPackets
+                0x0000000000001b30                digipeater_messageCallback
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(mul10.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text          0x0000000000001b6c        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+                0x0000000000001b6c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x0000000000001b6c       0x18 main.o
+                0x0000000000001b6c                main
+ .text.libgcc.mul
+                0x0000000000001b84        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000001b84       0x44 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000001b84                __udivmodsi4
+ .text.libgcc   0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000001bc8        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000001bc8       0x16 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000001bc8                __muluhisi3
+ .text.libgcc.div
+                0x0000000000001bde        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000001bde        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000001bde        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000001bde        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000001bde        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000001bde        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.mul
+                0x0000000000001bde       0x1e /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000001bde                __umulhisi3
+ .text.libgcc.div
+                0x0000000000001bfc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000001bfc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000001bfc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000001bfc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000001bfc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000001bfc        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .text.avr-libc
+                0x0000000000001bfc       0xb8 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+                0x0000000000001c8e                rand_r
+                0x0000000000001c94                rand
+                0x0000000000001c9e                srand
+ .text.avr-libc
+                0x0000000000001cb4       0x3c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+                0x0000000000001cb4                atoi
+ .text.avr-libc
+                0x0000000000001cf0       0x1a /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(memcmp.o)
+                0x0000000000001cf0                memcmp
+ .text.avr-libc
+                0x0000000000001d0a       0x10 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(mul10.o)
+                0x0000000000001d0a                __mulhi_const_10
+ .text.avr-libc
+                0x0000000000001d1a       0x7c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+                0x0000000000001d1a                fgetc
+ .text.avr-libc
+                0x0000000000001d96       0x70 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+                0x0000000000001d96                fputc
+ .text.avr-libc
+                0x0000000000001e06       0x2c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+                0x0000000000001e06                printf
+ .text.avr-libc
+                0x0000000000001e32       0x4c /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                0x0000000000001e32                printf_P
+ .text.avr-libc
+                0x0000000000001e7e        0xe /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+                0x0000000000001e7e                putchar
+ .text.avr-libc
+                0x0000000000001e8c      0x3a4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                0x0000000000001e8c                vfprintf
+ .text.avr-libc
+                0x0000000000002230       0x16 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                0x0000000000002230                strnlen_P
+ .text.avr-libc
+                0x0000000000002246       0x16 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+                0x0000000000002246                strnlen
+ .text.avr-libc
+                0x000000000000225c       0xbc /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                0x000000000000225c                __ultoa_invert
+ .text.libgcc.mul
+                0x0000000000002318        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x0000000000002318       0x2e /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000002318                __divmodsi4
+ .text.libgcc   0x0000000000002346        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000002346        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000002346        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000002346        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000002346        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000002346        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000002346       0x10 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+                0x0000000000002346                __negsi2
+ .text.libgcc   0x0000000000002356        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000002356        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000002356        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000002356        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000002356        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000002356       0x10 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+                0x0000000000002356                __mulshisi3
+                0x000000000000235c                __mulohisi3
+ .text.libgcc.div
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .text.libgcc.mul
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc   0x0000000000002366        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x0000000000002366       0x38 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+                0x0000000000002366                __prologue_saves__
+ .text.libgcc.builtins
+                0x000000000000239e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x000000000000239e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x000000000000239e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x000000000000239e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x000000000000239e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc   0x000000000000239e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x000000000000239e       0x36 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+                0x000000000000239e                __epilogue_restores__
+ .text.libgcc.builtins
+                0x00000000000023d4        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000000023d4        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000000023d4        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+                0x00000000000023d4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000023d4        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                0x00000000000023d4                exit
+                0x00000000000023d4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000023d4        0x4 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000023d8                _etext = .
+
+.data           0x0000000000800100       0x3c indirizzo di caricamento 0x00000000000023d8
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100        0x8 main.o
+                0x0000000000800100                custom_tail
+                0x0000000000800104                custom_preamble
+ .data          0x0000000000800108        0x0 hardware/Serial.o
+ .data          0x0000000000800108        0x0 hardware/AFSK.o
+ .data          0x0000000000800108        0x0 util/CRC-CCIT.o
+ .data          0x0000000000800108        0x0 protocol/AX25.o
+ .data          0x0000000000800108        0x6 protocol/Digipeater.o
+                0x0000000000800108                specificDigipeat
+                0x0000000000800109                p
+                0x000000000080010a                slotTime
+ .data          0x000000000080010e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x000000000080010e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .data          0x000000000080010e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x000000000080010e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x000000000080010e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .data          0x000000000080010e        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x000000000080010e        0x4 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(mul10.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .data          0x0000000000800112        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000000800112       0x2a protocol/Digipeater.o
+ *(.gnu.linkonce.d*)
+                0x000000000080013c                . = ALIGN (0x2)
+                0x000000000080013c                _edata = .
+                0x000000000080013c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080013c      0x63b
+                0x000000000080013c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x000000000080013c        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x000000000080013c        0x0 main.o
+ .bss           0x000000000080013c        0x0 hardware/Serial.o
+ .bss           0x000000000080013c        0x2 hardware/AFSK.o
+                0x000000000080013c                hw_5v_ref
+                0x000000000080013d                hw_afsk_dac_isr
+ .bss           0x000000000080013e        0x0 util/CRC-CCIT.o
+ .bss           0x000000000080013e        0x0 protocol/AX25.o
+ .bss           0x000000000080013e        0x3 protocol/Digipeater.o
+                0x000000000080013e                dupl_i
+                0x000000000080013f                r
+                0x0000000000800140                csma_waiting
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(memcmp.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(mul10.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+ .bss           0x0000000000800141        0x0 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0000000000800141      0x2b2 main.o
+                0x0000000000800141                modem
+                0x000000000080020b                _clock
+                0x000000000080020f                rpt_hbits
+                0x0000000000800210                dst
+                0x0000000000800217                rpt_hbits_out
+                0x0000000000800218                serial
+                0x0000000000800226                rpt_list
+                0x000000000080025e                src
+                0x0000000000800265                AX25
+                0x00000000008003bb                rpt_list_out
+ COMMON         0x00000000008003f3        0x2 hardware/AFSK.o
+                0x00000000008003f3                AFSK_modem
+ COMMON         0x00000000008003f5      0x37c protocol/Digipeater.o
+                0x00000000008003f5                packetBuffer
+                0x000000000080053f                ax25ctx
+                0x0000000000800541                channel
+                0x0000000000800543                dupl_list
+                0x0000000000800623                frame_len_out
+                0x0000000000800625                packetBufferOut
+                0x000000000080076f                frame_len
+ COMMON         0x0000000000800771        0x6 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+                0x0000000000800771                __iob
+                0x0000000000800777                PROVIDE (__bss_end, .)
+                0x00000000000023d8                __data_load_start = LOADADDR (.data)
+                0x0000000000002414                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800777        0x0
+                0x0000000000800777                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0000000000800777                PROVIDE (__noinit_end, .)
+                0x0000000000800777                _end = .
+                0x0000000000800777                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000     0x42fc
+ *(.stab)
+ .stab          0x0000000000000000      0x864 main.o
+ .stab          0x0000000000000864      0x54c hardware/Serial.o
+                                        0x780 (dimensione prima del rilassamento)
+ .stab          0x0000000000000db0     0x1554 hardware/AFSK.o
+                                       0x17d0 (dimensione prima del rilassamento)
+ .stab          0x0000000000002304      0x2dc util/CRC-CCIT.o
+                                        0x4bc (dimensione prima del rilassamento)
+ .stab          0x00000000000025e0      0x84c protocol/AX25.o
+                                        0xae0 (dimensione prima del rilassamento)
+ .stab          0x0000000000002e2c     0x14d0 protocol/Digipeater.o
+                                       0x1770 (dimensione prima del rilassamento)
+
+.stabstr        0x0000000000000000     0x263c
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0x263c main.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 main.o
+                                         0x12 (dimensione prima del rilassamento)
+ .comment       0x0000000000000011       0x12 hardware/Serial.o
+ .comment       0x0000000000000011       0x12 hardware/AFSK.o
+ .comment       0x0000000000000011       0x12 util/CRC-CCIT.o
+ .comment       0x0000000000000011       0x12 protocol/AX25.o
+ .comment       0x0000000000000011       0x12 protocol/Digipeater.o
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+ .comment       0x0000000000000011       0x12 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(images/MicroDigi.elf elf32-avr)
+LOAD linker stubs
+
+Tabella dei riferimenti incrociati
+
+Simbolo                                           File
+AFSK_adc_isr                                      hardware/AFSK.o
+AFSK_dac_isr                                      hardware/AFSK.o
+AFSK_hw_init                                      hardware/AFSK.o
+AFSK_hw_refDetect                                 hardware/AFSK.o
+AFSK_init                                         hardware/AFSK.o
+                                                  main.o
+AFSK_modem                                        hardware/AFSK.o
+AFSK_transmit                                     hardware/AFSK.o
+AX25                                              main.o
+__bad_interrupt                                   /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+__divmodsi4                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_clear_bss.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+                                                  protocol/Digipeater.o
+                                                  protocol/AX25.o
+                                                  hardware/AFSK.o
+                                                  main.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_copy_data.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+                                                  protocol/Digipeater.o
+                                                  main.o
+__epilogue_restores__                             /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_epilogue.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+__heap_end                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__iob                                             /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(iob.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+                                                  protocol/Digipeater.o
+                                                  main.o
+__mulhi_const_10                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(mul10.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+__mulohisi3                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+__mulshisi3                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+__muluhisi3                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_mulshisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+                                                  protocol/Digipeater.o
+                                                  hardware/AFSK.o
+__negsi2                                          /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+__prologue_saves__                                /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_prologue.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+__stack                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__udivmodsi4                                      /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_divmodsi4.o)
+                                                  hardware/AFSK.o
+__ultoa_invert                                    /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(ultoa_invert.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+__umulhisi3                                       /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_muluhisi3.o)
+__vector_1                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       hardware/AFSK.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+_clock                                            protocol/Digipeater.o
+                                                  protocol/AX25.o
+                                                  hardware/AFSK.o
+                                                  main.o
+_exit                                             /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+afsk_getchar                                      hardware/AFSK.o
+afsk_putchar                                      hardware/AFSK.o
+atoi                                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(atoi.o)
+                                                  protocol/Digipeater.o
+ax25_init                                         protocol/AX25.o
+                                                  main.o
+ax25_poll                                         protocol/AX25.o
+                                                  protocol/Digipeater.o
+                                                  main.o
+ax25_sendRaw                                      protocol/AX25.o
+                                                  protocol/Digipeater.o
+ax25ctx                                           protocol/Digipeater.o
+channel                                           protocol/Digipeater.o
+crc_ccit_table                                    util/CRC-CCIT.o
+                                                  protocol/Digipeater.o
+                                                  protocol/AX25.o
+csma_waiting                                      protocol/Digipeater.o
+custom_preamble                                   main.o
+                                                  hardware/AFSK.o
+custom_tail                                       main.o
+                                                  hardware/AFSK.o
+digipeater_csma                                   protocol/Digipeater.o
+digipeater_init                                   protocol/Digipeater.o
+                                                  main.o
+digipeater_messageCallback                        protocol/Digipeater.o
+                                                  main.o
+digipeater_processPackets                         protocol/Digipeater.o
+                                                  main.o
+dst                                               protocol/Digipeater.o
+                                                  main.o
+dupl_i                                            protocol/Digipeater.o
+dupl_list                                         protocol/Digipeater.o
+exit                                              /usr/lib/gcc/avr/4.9.2/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+fgetc                                             /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fgetc.o)
+                                                  protocol/AX25.o
+fputc                                             /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(fputc.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+                                                  protocol/Digipeater.o
+                                                  protocol/AX25.o
+frame_len                                         protocol/Digipeater.o
+frame_len_out                                     protocol/Digipeater.o
+hw_5v_ref                                         hardware/AFSK.o
+hw_afsk_dac_isr                                   hardware/AFSK.o
+init                                              main.o
+is_duplicate                                      protocol/Digipeater.o
+main                                              main.o
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/crtatmega328p.o
+memcmp                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(memcmp.o)
+                                                  protocol/Digipeater.o
+modem                                             main.o
+p                                                 protocol/Digipeater.o
+packetBuffer                                      protocol/Digipeater.o
+packetBufferOut                                   protocol/Digipeater.o
+printf                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
+                                                  protocol/Digipeater.o
+printf_P                                          /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                                                  protocol/Digipeater.o
+putchar                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(putchar.o)
+                                                  protocol/Digipeater.o
+r                                                 protocol/Digipeater.o
+rand                                              /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+                                                  protocol/Digipeater.o
+rand_r                                            /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+rpt_hbits                                         protocol/Digipeater.o
+                                                  main.o
+rpt_hbits_out                                     protocol/Digipeater.o
+                                                  main.o
+rpt_list                                          protocol/Digipeater.o
+                                                  main.o
+rpt_list_out                                      protocol/Digipeater.o
+                                                  main.o
+serial                                            protocol/Digipeater.o
+                                                  main.o
+serial_available                                  hardware/Serial.o
+                                                  main.o
+serial_init                                       hardware/Serial.o
+                                                  main.o
+slotTime                                          protocol/Digipeater.o
+specificDigipeat                                  protocol/Digipeater.o
+srand                                             /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(rand.o)
+src                                               protocol/Digipeater.o
+                                                  main.o
+strnlen                                           /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+strnlen_P                                         /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(strnlen_P.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+uart0_getchar                                     hardware/Serial.o
+uart0_getchar_nowait                              hardware/Serial.o
+uart0_putchar                                     hardware/Serial.o
+vfprintf                                          /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf_p.o)
+                                                  /usr/lib/gcc/avr/4.9.2/../../../avr/lib/avr5/libc.a(printf.o)
